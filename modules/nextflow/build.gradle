@@ -21,6 +21,7 @@ dependencies {
     compile "org.codehaus.groovy:groovy-xml:3.0.5"
     compile "org.codehaus.groovy:groovy-json:3.0.5"
     compile "org.codehaus.groovy:groovy-templates:3.0.5"
+    compile "org.codehaus.groovy:groovy-sql:3.0.5"
     compile "org.slf4j:jcl-over-slf4j:1.7.25"
     compile "org.slf4j:jul-to-slf4j:1.7.25"
     compile "org.slf4j:log4j-over-slf4j:1.7.25"
@@ -39,6 +40,11 @@ dependencies {
     compile ('org.yaml:snakeyaml:1.18')
     compile ('org.jsoup:jsoup:1.11.2')
     compile 'jline:jline:2.9'
+    compile "org.postgresql:postgresql:42.2.18"
+    compile "mysql:mysql-connector-java:8.0.22"
+    compile "org.xerial:sqlite-jdbc:3.32.3.2"
+    compile "org.mariadb.jdbc:mariadb-java-client:2.7.0"
+    compile "org.apache.ignite:ignite-core:2.9.0"
 
     testImplementation 'org.subethamail:subethasmtp:3.1.7'
 
